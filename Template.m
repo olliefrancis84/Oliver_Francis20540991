@@ -16,7 +16,7 @@ Voltage = zeros(1,601);
 temperature = zeros(1,601);
 for f = 1:601
     Voltage(f) = readVoltage(a,'A4');
- 
+    
     temperature(f) = ((Voltage(f)-0.5)*100);
 end
 Minimum = min(temperature) 
@@ -28,10 +28,10 @@ ylabel('temperature/C')
 A1 = datetime('now','TimeZone','local','Format','dd/MM/uuuu');
 disp(fprintf(fileID,'Data logging initiated-%s\nLocation-Nottingham',A1))
 n = 1;
-D = 0
+D = 0;
 for i = 0:10
     A3 = D;
-    disp(fprintf(fileID,'\nMinute    \t\t %d',A3))
+    disp(fprintf(fileID,'\n\nMinute    \t\t %d',A3))
     A2 = temperature(n);
     disp(fprintf(fileID,'\nTemperature\t\t %2.2f',A2))
     n = n+60;
@@ -40,10 +40,10 @@ end
 A4 = Maximum;
 A5 = Minimum;
 A6 = Average;
-disp(fprintf(fileID,'\nMax temp  \t\t%2.2fC',A4))
+disp(fprintf(fileID,'\n\nMax temp  \t\t%2.2fC',A4))
 disp(fprintf(fileID,'\nMin temp  \t\t%2.2fC',A5))
 disp(fprintf(fileID,'\nAverage temp \t%2.2fC',A6))
-disp(fprintf(fileID,'\nData logging terminated'))
+disp(fprintf(fileID,'\n\nData logging terminated'))
 %% TASK 2 - LED TEMPERATURE MONITORING DEVICE IMPLEMENTATION [25 MARKS]
 doc sprintf
 % Insert answers here
