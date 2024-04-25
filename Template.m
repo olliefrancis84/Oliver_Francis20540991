@@ -2,6 +2,7 @@
 %egyof1@nottingham.ac.uk
 %% PRELIMINARY TASK - ARDUINO AND GIT INSTALLATION [10 MARKS]
 clear
+a = arduino("COM3");
 for f = 1:10
     writeDigitalPin(a,'D10',1)
     pause(0.5)
