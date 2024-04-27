@@ -84,6 +84,7 @@ while (temperature>0) && (temperature<100)
     hold on
     
 end
+
 writeDigitalPin(a,"D6",0)
 
 
