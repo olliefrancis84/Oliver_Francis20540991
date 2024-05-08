@@ -68,4 +68,27 @@ run("temp_prediction.m")
 
 %% TASK 4 - REFLECTIVE STATEMENT [5 MARKS]
 
-% Insert answers here
+% Overall, this project went well, I have gained many new skills to use in
+% MATLAB and have learnt how to use an Arduino board. I have made many 
+% changes and iterations to my code including starting completely from
+% fresh for some tasks which helped me come at the problem from a new
+% angle with the experience gained. The Arduino board at first was
+% challenging to use as I didn’t know how everything connected together
+% but I quicky understood how to use it and it became an easy tool to use
+% and alter.
+
+% I have improved most at visualising a problem and how I would implement
+% it into code. This includes how many iterations of a loop I would need
+% or what limitations to put on variables and how I can display them later
+% on. The flowcharting helped also with planning what I would do before
+% starting, this meant that I wouldn’t have to restart my code as I already
+% had an idea of what to do.
+
+%I was limited by my understanding of some commands, If I knew how they
+% worked and how to adjust them rather than just putting them in place I
+% would’ve been able to optimise my code better. Sometimes my code became
+% a bit messy as I tried to patch up earlier mistakes or inefficiencies. 
+
+%If I were to add future improvements to my code they would be to improve
+% the efficiency of it as there are better ways of doing what I have done
+% and I would learn some new methods of completing the tasks.
