@@ -92,3 +92,8 @@ run("temp_prediction.m")
 %If I were to add future improvements to my code they would be to improve
 % the efficiency of it as there are better ways of doing what I have done
 % and I would learn some new methods of completing the tasks.
+
+
+
+% Side note: I had this script added to git with a full list of commits but
+% then I renamed it and it wiped all of them.
